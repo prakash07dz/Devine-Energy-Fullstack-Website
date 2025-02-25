@@ -175,7 +175,7 @@ const Contact = () => {
               }`}
               disabled={loading}
             >
-              {loading ? t("contact.sending") : t("contact.submit")}
+              {loading ? "Sending..." : "Submit"}
             </button>
 
             {successMessage && (

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
 const Subsidy = () => {
@@ -47,12 +48,12 @@ const Subsidy = () => {
         </div>
 
         <div className="mt-8">
-          <a
-            href="/apply-subsidy"
+          <Link
+            to="/apply-subsidy"
             className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300"
           >
             {t("apply_button")}
-          </a>
+          </Link>
         </div>
       </div>
     </section>

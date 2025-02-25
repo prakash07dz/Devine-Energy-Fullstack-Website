@@ -9,7 +9,9 @@ const Messages = () => {
   useEffect(() => {
     const fetchMessages = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/api/contact");
+        const response = await axios.get(
+          "https://devine-energy-fullstack-website-backend.onrender.com/api/contact"
+        );
         setMessages(response.data);
       } catch (error) {
         setError("Failed to fetch messages. Please try again later.");
@@ -26,7 +28,9 @@ const Messages = () => {
       return;
 
     try {
-      await axios.delete(`http://localhost:3000/api/contact/${id}`);
+      await axios.delete(
+        `https://devine-energy-fullstack-website-backend.onrender.com/api/contact/${id}`
+      );
       setMessages(messages.filter((msg) => msg._id !== id));
     } catch (error) {
       alert("Failed to delete message. Try again.");

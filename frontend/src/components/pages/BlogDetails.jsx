@@ -11,7 +11,7 @@ const BlogDetails = () => {
     const fetchBlog = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:3000/api/blogs/${id}`
+          `https://devine-energy-fullstack-website-backend.onrender.com/api/blogs/${id}`
         );
         setBlog(response.data);
       } catch (error) {

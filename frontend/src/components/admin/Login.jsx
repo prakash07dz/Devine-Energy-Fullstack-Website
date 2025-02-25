@@ -19,7 +19,7 @@ const AdminLogin = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/admin/login",
+        "https://devine-energy-fullstack-website-backend.onrender.com/api/admin/login",
         formData
       );
       localStorage.setItem("adminToken", response.data.token);

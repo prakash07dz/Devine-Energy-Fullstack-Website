@@ -14,9 +14,12 @@ const Blogs = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/api/blogs", {
-          headers: { Authorization: localStorage.getItem("adminToken") },
-        });
+        const response = await axios.get(
+          "https://devine-energy-fullstack-website-backend.onrender.com/api/blogs",
+          {
+            headers: { Authorization: localStorage.getItem("adminToken") },
+          }
+        );
         setBlogs(response.data);
       } catch (error) {
         console.error("Error fetching blogs:", error);
@@ -34,7 +37,7 @@ const Blogs = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/blogs",
+        "https://devine-energy-fullstack-website-backend.onrender.com/api/blogs",
         newBlog,
         {
           headers: { Authorization: localStorage.getItem("adminToken") },

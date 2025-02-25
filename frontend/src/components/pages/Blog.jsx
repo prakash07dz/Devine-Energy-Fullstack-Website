@@ -12,7 +12,9 @@ const Blog = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/api/blogs");
+        const response = await axios.get(
+          "https://devine-energy-fullstack-website-backend.onrender.com/api/blogs"
+        );
         setBlogs(response.data);
       } catch (error) {
         console.error("Error fetching blogs:", error);

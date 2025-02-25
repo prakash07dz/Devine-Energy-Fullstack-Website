@@ -22,7 +22,7 @@ const Applications = () => {
     const fetchApplications = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:3000/api/documents",
+          "https://devine-energy-fullstack-website-backend.onrender.com/api/documents",
           {
             headers: { Authorization: localStorage.getItem("adminToken") },
           }
@@ -39,7 +39,7 @@ const Applications = () => {
   const updateApplicationStatus = async (id, status) => {
     try {
       const response = await axios.put(
-        `http://localhost:3000/api/documents/${id}`,
+        `https://devine-energy-fullstack-website-backend.onrender.com/api/documents/${id}`,
         { status },
         {
           headers: { Authorization: localStorage.getItem("adminToken") },
@@ -62,9 +62,12 @@ const Applications = () => {
     if (!isConfirmed) return;
 
     try {
-      await axios.delete(`http://localhost:3000/api/documents/${id}`, {
-        headers: { Authorization: localStorage.getItem("adminToken") },
-      });
+      await axios.delete(
+        `https://devine-energy-fullstack-website-backend.onrender.com/api/documents/${id}`,
+        {
+          headers: { Authorization: localStorage.getItem("adminToken") },
+        }
+      );
 
       setApplications((prev) => prev.filter((app) => app._id !== id));
     } catch (error) {

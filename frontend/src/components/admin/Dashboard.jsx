@@ -21,7 +21,7 @@ const AdminDashboard = () => {
     const fetchApplications = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:3000/api/documents",
+          "https://devine-energy-fullstack-website-backend.onrender.com/api/documents",
           {
             headers: { Authorization: localStorage.getItem("adminToken") },
           }

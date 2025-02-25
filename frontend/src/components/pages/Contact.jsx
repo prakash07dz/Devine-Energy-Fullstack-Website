@@ -44,7 +44,10 @@ const Contact = () => {
     setLoading(true);
 
     try {
-      await axios.post("http://localhost:3000/api/contact", formData);
+      await axios.post(
+        "https://devine-energy-fullstack-website-backend.onrender.com/api/contact",
+        formData
+      );
       setSuccessMessage(t("contact.success"));
       setFormData({ name: "", mobile: "", message: "" });
       setErrorMessage("");

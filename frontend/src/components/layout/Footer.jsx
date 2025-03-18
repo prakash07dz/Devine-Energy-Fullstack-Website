@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           {/* About Section */}
           <div>
-            <h2 className="text-2xl font-bold text-green-400">Devine Energy</h2>
+            <h2 className="text-2xl font-bold text-green-400">Divine Energy</h2>
             <p className="mt-2 text-gray-300">{t("footer.description")}</p>
           </div>
 
@@ -95,7 +95,7 @@ const Footer = () => {
         {/* Admin Login & Copyright Section */}
         <div className="mt-8 text-center border-t border-gray-700 pt-4 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300">
-            © {new Date().getFullYear()} Devine Energy. All Rights Reserved.
+            © {new Date().getFullYear()} Divine Energy. All Rights Reserved.
           </p>
 
           <Link

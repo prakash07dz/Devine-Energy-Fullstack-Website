@@ -9,7 +9,7 @@ i18n
     resources: {
       en: {
         translation: {
-          welcome: "Welcome to Devine Energy",
+          welcome: "Welcome to Divine Energy",
           contactNav: "Contact Us",
           applySubsidy: "Apply for Subsidy",
           language: "Language",
@@ -31,7 +31,7 @@ i18n
           // About Us Page
           about_title: "About Us",
           about_description:
-            "At Devine Energy, we are dedicated to transforming the way energy is consumed. With years of expertise, we offer sustainable and efficient solar solutions for residential, commercial, and industrial sectors. Our mission is to empower every home and business with clean, renewable energy.",
+            "At Divine Energy, we are dedicated to transforming the way energy is consumed. With years of expertise, we offer sustainable and efficient solar solutions for residential, commercial, and industrial sectors. Our mission is to empower every home and business with clean, renewable energy.",
           achievements: "Our Achievements",
           projects_completed: "Projects Completed",
           happy_clients: "Happy Clients",
@@ -153,7 +153,7 @@ i18n
             "list": [
               {
                 "name": "Amit Sharma",
-                "review": "Devine Energy transformed my home with solar power. My electricity bill has reduced drastically!"
+                "review": "Divine Energy transformed my home with solar power. My electricity bill has reduced drastically!"
               },
               {
                 "name": "Raj Verma",
@@ -195,7 +195,7 @@ i18n
 
           //Footer Section
           "footer": {
-            "company_name": "Devine Energy",
+            "company_name": "Divine Energy",
             "description": "Empowering a sustainable future with clean and affordable solar energy solutions.",
             "quick_links": "Quick Links",
             "about_us": "About Us",
@@ -205,7 +205,7 @@ i18n
             "contact": "Contact",
             "follow_us": "Follow Us",
             "admin_login": "Admin Login",
-            "copyright": "© {{year}} Devine Energy. All Rights Reserved.",
+            "copyright": "© {{year}} Divine Energy. All Rights Reserved.",
             "made_by": "Made by",
             "developer_name": "Prakash Parmar"
           },
@@ -232,7 +232,7 @@ i18n
       },
       hi: {
         translation: {
-          welcome: "देवाइन एनर्जी में आपका स्वागत है",
+          welcome: "डिवाइन एनर्जी में आपका स्वागत है",
           contactNav: "संपर्क करें",
           applySubsidy: "सब्सिडी के लिए आवेदन करें",
           language: "भाषा",
@@ -254,7 +254,7 @@ i18n
           // About Us Page
           about_title: "हमारे बारे में",
           about_description:
-            "देवाइन एनर्जी में, हम ऊर्जा खपत के तरीके को बदलने के लिए समर्पित हैं। वर्षों के अनुभव के साथ, हम आवासीय, वाणिज्यिक और औद्योगिक क्षेत्रों के लिए स्थायी और कुशल सौर समाधान प्रदान करते हैं। हमारा मिशन हर घर और व्यवसाय को स्वच्छ, नवीकरणीय ऊर्जा से सशक्त बनाना है।",
+            "डिवाइन एनर्जी में, हम ऊर्जा खपत के तरीके को बदलने के लिए समर्पित हैं। वर्षों के अनुभव के साथ, हम आवासीय, वाणिज्यिक और औद्योगिक क्षेत्रों के लिए स्थायी और कुशल सौर समाधान प्रदान करते हैं। हमारा मिशन हर घर और व्यवसाय को स्वच्छ, नवीकरणीय ऊर्जा से सशक्त बनाना है।",
           achievements: "हमारी उपलब्धियां",
           projects_completed: "पूरा किए गए प्रोजेक्ट",
           happy_clients: "खुश ग्राहक",

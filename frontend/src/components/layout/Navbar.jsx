@@ -58,7 +58,7 @@ const Navbar = () => {
     <nav className="flex justify-between items-center px-6 py-4 bg-gray-900 text-white fixed top-0 left-0 right-0 z-50 shadow-md">
       <div className="flex items-center">
         <h1 className="text-2xl font-extrabold text-white md:text-3xl">
-          DEVINE ENERGY
+          DIVINE ENERGY
         </h1>
       </div>
 

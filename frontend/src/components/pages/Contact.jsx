@@ -7,7 +7,7 @@ const Contact = () => {
   const { t } = useTranslation();
 
   const phoneNumber = "+916354051676";
-  const emailAddress = "info@devineenergy.com";
+  const emailAddress = "info@divineenergy.com";
   const locationAddress = "Palanpur, Gujarat, India";
 
   const [formData, setFormData] = useState({

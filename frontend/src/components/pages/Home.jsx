@@ -5,7 +5,7 @@ const Home = () => {
   const { t } = useTranslation();
 
   const handleWhatsAppRedirect = () => {
-    const phoneNumber = "+916352720996";
+    const phoneNumber = "+916354051676";
     const message = encodeURIComponent(
       "Hello, I'm interested in a free consultation."
     );
